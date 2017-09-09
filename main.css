@@ -1,0 +1,36 @@
+.boxes
+{
+  font-family: sans-serif;
+  font-size: 1.3em;
+}
+.box
+{
+  display: block;
+  overflow: hidden;
+  float: left;
+  border-radius: 10px;
+  text-align: center;
+  width: 33%;
+  background: linear-gradient(90deg, #CCCCCC, #F1F1F1);
+}
+
+.box span
+{
+  display: block;
+  overflow: hidden;
+  padding: 3em 0;
+}
+
+@media (max-width: 1000px) {
+  .box {
+    float: none;
+    margin: 10px auto;
+    width: 330px;
+  }
+}
+
+@media (max-width: 360px) {
+  .box {
+    width: 95%;
+  }
+}
